@@ -27,7 +27,7 @@ header{
     border-bottom: 5px solid var(--main_clr);
 }
 #logo{
-    width: 250px;
+    width: 200px;
 }
 header .header-list{
     display: flex;
