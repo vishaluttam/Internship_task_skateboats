@@ -5,7 +5,7 @@
     --main_clr : #ff5625;
     --body-clr : #f5f5f5;
     --body-ff : 'Roboto', sans-serif;
-    --head_FS : 1.5em;
+    --head_FS : 1em;
 }
 *{
     margin: 0;
@@ -66,12 +66,12 @@ header .header-list ul a:hover
 /*Side Nav*/
 section .side-nav ul
 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     list-style: none;
 }
 section .side-nav ul .heading
 {
-    font-size: 1.2em;
+    font-size: 1em;
     padding:10px;
 }
 section .side-nav ul li 
@@ -129,18 +129,19 @@ section .side-nav ul .show
 .products-grid
 {
     position: relative;
-    left: -70px;
+    left:10px;
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-auto-rows: 400px;
+    grid-template-columns: 320px 320px 320px;
+    grid-auto-rows: 300px;
 }
 .products-grid .card
 {
-    font-size: 1.3em;
+    font-size: 1em;
     display: flex;
-    width: 500px;
-    line-height:2 ;
+    width: 470px;
+    line-height:1.5 ;
     transition: 0.2s transform;
+    align-self: start;
 
 } 
 .products-grid .card:hover
@@ -150,10 +151,10 @@ section .side-nav ul .show
 .products-grid .card img
 {
     position: relative;
-    height: 250px;
+    height: 200px;
     padding: 0;
-    left:60px;
-    transform: scale(1.4) translateX(30px);
+    left:40px;
+    transform: scale(1.4);
 }
 .products-grid .card .product-details
 {
@@ -162,9 +163,12 @@ section .side-nav ul .show
     padding: 1em 1em 1em 3em;
     background-color: white;
     overflow: hidden;
-    height: 300px;
+    height: 250px;
+    width: 250px;
     transform: translateY(-20px);
     z-index: -1;
+    position: relative;
+    left: -30px;
 }
 
 .products-grid .card .product-details .product-size
@@ -181,6 +185,7 @@ section .side-nav ul .show
     color: var(--main_clr);
     position: relative;
     left:90px;
+    top:50px;
 }
 .products-grid .card .product-details a h2:hover
 {
