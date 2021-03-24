@@ -60,7 +60,7 @@ header .header-list ul a:hover
 .main-content
 {
     display: flex;
-    
+    justify-content: flex-start;
 }
 
 /*Side Nav*/
